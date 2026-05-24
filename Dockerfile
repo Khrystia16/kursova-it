@@ -1,11 +1,11 @@
-# Використання мінімального образу Python
+# Use official Python as base
 FROM python:3.9-slim
 
-# Встановлення робочої директорії для додатку
+# Set working directory
 WORKDIR /app
 
-# Копіювання вихідного коду з хостової машини у контейнер
+# Copy source code
 COPY main.py .
 
-# Команда для запуску програми
+# Run the application
 CMD ["python", "main.py"]
