@@ -1,5 +1,5 @@
 def add_numbers(a, b):
-    return a + 
+    return a + b
 
 if __name__ == "__main__":
     print("Запускаємо програму...")
